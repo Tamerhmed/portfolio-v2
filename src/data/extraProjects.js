@@ -11,6 +11,22 @@ export const extraProjects = [
   },
   {
     id: 2,
+    title: 'Apple TV+ Clone',
+    description:
+      'A visually polished front-end concept inspired by the Apple TV+ landing page. Designed to showcase UI design and animation skills, the app features an animated hero carousel, smooth transitions, and an interactive FAQ section — all focused on delivering a sleek and engaging user experience.',
+    technologies: [
+      'React',
+      'Vite',
+      'TypeScript',
+      'Tailwind CSS v4',
+      'Framer Motion',
+    ],
+    image: '/assets/apple-tv-clone.png',
+    githubUrl: null,
+    liveUrl: 'https://apple-tv-plus-clone-pied.vercel.app/',
+  },
+  {
+    id: 3,
     title: 'Jobify',
     description:
       'Job tracking app allowing users to create, edit, delete job listings, and track their application progress across statuses like pending, interview, and rejected.',
@@ -20,7 +36,7 @@ export const extraProjects = [
     liveUrl: 'https://jobify-trade-job.vercel.app/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Tours With GPT (Interactive)',
     description:
       'Explore global destinations by interacting with GPT and generate personalized travel tours through a conversational interface.',
@@ -30,7 +46,7 @@ export const extraProjects = [
     liveUrl: 'https://tours-with-gpt.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Property Pulse',
     description:
       'A rental marketplace connecting property owners and seekers. Includes property listing, search, contact, and full CRUD capabilities with user auth.',
@@ -40,7 +56,7 @@ export const extraProjects = [
     liveUrl: 'https://property-pulse-one.vercel.app/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Poke Blog',
     description:
       'A blog platform with user registration, login, CRUD blog features, profile management, and commenting system.',
@@ -51,7 +67,7 @@ export const extraProjects = [
       'Cloudinary',
       'MongoDB',
     ],
-    image: '/assets/tours-with-gpt.png',
+    image: '/assets/poko-blog.png',
     githubUrl: 'https://github.com/Tamerhmed/poko-blog',
     liveUrl: null,
   },

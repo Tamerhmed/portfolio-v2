@@ -94,7 +94,7 @@ const ProjectCard = ({ project, index, isReversed = false }) => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.2 + 0.5 }}
-            className='text-2xl lg:text-3xl font-bold text-white'
+            className='text-xl lg:text-2xl font-bold text-white'
           >
             {project.title}
           </motion.h3>

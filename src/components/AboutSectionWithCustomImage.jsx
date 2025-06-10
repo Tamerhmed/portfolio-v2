@@ -14,11 +14,13 @@ export default function AboutSectionWithCustomImage() {
     'JavaScript (ES6+)',
     'TypeScript',
     'React',
-    'Sitefinity',
+    'Next.js',
     'Node.js',
-    'WordPress',
     'Figma',
     'PHP',
+    'WordPress',
+    'Sitefinity',
+    'TailwindCSS',
     'Bootstrap',
   ];
 
@@ -82,61 +84,36 @@ export default function AboutSectionWithCustomImage() {
               <p>
                 Hello! My name is Tamer and I enjoy creating things that live on
                 the internet. My interest in web development started back in
-                2012 when I decided to try editing custom Tumblr themes — turns
-                out hacking together a custom reblog button taught me a lot
-                about HTML &amp; CSS!
+                2017, when I was completing my Graphic Design Diploma — I built
+                a website for a client as part of my assessment, and that
+                project taught me a lot about HTML & CSS. I quickly realized I
+                enjoyed coding just as much as designing, and I’ve been building
+                ever since.
               </p>
 
               <p>
-                Fast-forward to today, and I've had the privilege of working at{' '}
+                Fast-forward to today, and I’ve had the privilege of working in
+                government, education, retail, and tech. I currently work at{' '}
                 <a
-                  href='#'
+                  href='https://www.aitsl.edu.au/'
+                  target='_blank'
                   className='text-teal-400 hover:underline transition-colors duration-300'
                 >
-                  an advertising agency
-                </a>
-                ,{' '}
-                <a
-                  href='#'
-                  className='text-teal-400 hover:underline transition-colors duration-300'
-                >
-                  a start-up
-                </a>
-                ,{' '}
-                <a
-                  href='#'
-                  className='text-teal-400 hover:underline transition-colors duration-300'
-                >
-                  a huge corporation
-                </a>
-                , and{' '}
-                <a
-                  href='#'
-                  className='text-teal-400 hover:underline transition-colors duration-300'
-                >
-                  a student-led design studio
-                </a>
-                . My main focus these days is building accessible, inclusive
-                products and digital experiences at{' '}
-                <a
-                  href='#'
-                  className='text-teal-400 hover:underline transition-colors duration-300'
-                >
-                  Upstatement
+                  AITSL
                 </a>{' '}
-                for a variety of clients.
-              </p>
-
-              <p>
-                I also recently{' '}
+                as a Web Support Officer, and teach JavaScript at{' '}
                 <a
-                  href='#'
+                  href='https://www.holmesglen.edu.au/'
+                  target='_blank'
                   className='text-teal-400 hover:underline transition-colors duration-300'
                 >
-                  launched a course
-                </a>{' '}
-                that covers everything you need to build a web app with the
-                Spotify API using Node &amp; React.
+                  Holmesglen
+                </a>
+                . My main focus these days is building accessible, responsive
+                web experiences using modern frontend tools and frameworks. I
+                enjoy turning design systems into performant interfaces, solving
+                problems through code, and continuously learning as the web
+                evolves.
               </p>
 
               <p>
@@ -195,28 +172,12 @@ export default function AboutSectionWithCustomImage() {
                       className='object-cover transition-all duration-700 ease-in-out'
                       alt='profile photo'
                     />
-                    {/* <div className='text-center'> */}
-                    {/* <div className='w-16 h-16 mx-auto mb-4 rounded-full bg-teal-400/20 flex items-center justify-center'>
-                        <svg
-                          className='w-8 h-8 text-teal-400'
-                          fill='currentColor'
-                          viewBox='0 0 20 20'
-                        >
-                          <path
-                            fillRule='evenodd'
-                            d='M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z'
-                            clipRule='evenodd'
-                          />
-                        </svg> 
-                      </div> */}
-                    {/* <p className='text-slate-400 text-sm font-mono'></p> */}
-                    {/* </div> */}
                   </div>
                 </div>
               </motion.div>
 
               {/* Border Effect */}
-              <div className='mx-auto absolute top-3 left-[32%] right-[28%] md:left-4 md:w-full h-full border-1 border-teal-400 rounded -z-10 md:group-hover:top-5 group-hover:left-[35%] md:group-hover:left-[8%] group-hover:right-[27%] md:group-hover:right-[28%] group-hover:top-5 transition-all duration-300'></div>
+              <div className='hidden lg:block mx-auto absolute top-3 left-[32%] right-[28%] md:left-4 md:w-full h-full border-1 border-teal-400 rounded -z-10 md:group-hover:top-5 group-hover:left-[35%] md:group-hover:left-[8%] group-hover:right-[27%] md:group-hover:right-[28%] group-hover:top-5 transition-all duration-300'></div>
             </div>
           </motion.div>
         </motion.div>

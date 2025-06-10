@@ -10,12 +10,16 @@ import SocialLinks from '@/components/SocialLinks';
 import { extraProjects } from '../data/extraProjects';
 
 import React from 'react';
+import AitslProjectsGrid from '@/components/AitslProjectsGrid';
+import Headers from '@/components/Headers';
+import ProfileNav from '@/components/ProfileNav';
 
 export default function Home() {
-  console.log(extraProjects);
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      {/* <Headers /> */}
+      <ProfileNav />
       <HeroSection />
       <EmailSidebar />
       <SocialLinks />
@@ -23,6 +27,7 @@ export default function Home() {
       <AboutSectionWithCustomImage />
 
       <ExperienceSection />
+      <AitslProjectsGrid />
       <ProjectsSection projects={extraProjects} />
     </div>
   );
