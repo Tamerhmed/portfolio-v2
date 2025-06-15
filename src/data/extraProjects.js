@@ -27,6 +27,24 @@ export const extraProjects = [
   },
   {
     id: 3,
+    title: 'CarePulse',
+    description:
+      'A healthcare appointment and patient management platform that enables clinics to manage bookings, patient records, and staff communication. Includes authentication, SMS notifications, and an intuitive admin dashboard.',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'ShadCN UI',
+      'Appwrite',
+      'Twilio',
+      'Sentry',
+    ],
+    image: '/assets/care-pulse.png',
+    githubUrl: 'https://github.com/Tamerhmed/care-pulse',
+    liveUrl: 'https://care-pulse-lemon-ten.vercel.app/',
+  },
+  {
+    id: 4,
     title: 'Jobify',
     description:
       'Job tracking app allowing users to create, edit, delete job listings, and track their application progress across statuses like pending, interview, and rejected.',
@@ -36,7 +54,7 @@ export const extraProjects = [
     liveUrl: 'https://jobify-trade-job.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Tours With GPT (Interactive)',
     description:
       'Explore global destinations by interacting with GPT and generate personalized travel tours through a conversational interface.',
@@ -46,7 +64,7 @@ export const extraProjects = [
     liveUrl: 'https://tours-with-gpt.vercel.app/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Property Pulse',
     description:
       'A rental marketplace connecting property owners and seekers. Includes property listing, search, contact, and full CRUD capabilities with user auth.',
@@ -56,7 +74,7 @@ export const extraProjects = [
     liveUrl: 'https://property-pulse-one.vercel.app/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Poke Blog',
     description:
       'A blog platform with user registration, login, CRUD blog features, profile management, and commenting system.',
