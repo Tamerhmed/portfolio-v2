@@ -51,32 +51,10 @@ export default function HeroSection() {
             <p className='text-slate-400 text-base lg:text-lg leading-relaxed'>
               I'm a front-end developer specializing in building (and
               occasionally <span className='text-teal-400'>designing</span>)
-              exceptional digital experiences. Currently, I'm focused on
-              building accessible, human-centered products at{' '}
-              <a
-                href='#'
-                className='text-teal-400 hover:underline transition-all duration-300'
-              >
-                AITSL
-              </a>
-              .
+              exceptional digital experiences. I focus on creating accessible,
+              human-centered products that make a meaningful impact.
             </p>
           </motion.div>
-
-          {/* CTA Button */}
-          {/* <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 1.8, duration: 0.8 }}
-            className='pt-8'
-          >
-            <a
-              href='#work'
-              className='inline-block border border-teal-400 text-teal-400 px-6 py-3 font-mono text-sm hover:bg-teal-400/10 hover:-translate-y-1 transition-all duration-300'
-            >
-              Resume
-            </a>
-          </motion.div> */}
         </motion.div>
       </div>
     </section>

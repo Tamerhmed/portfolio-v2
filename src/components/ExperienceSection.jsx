@@ -12,7 +12,7 @@ export default function ExperienceSection() {
     {
       company: 'AITSL',
       role: 'Web Support Officer → Front-End Developer ',
-      period: 'Jan 2022 - Present',
+      period: 'Jan 2022 - July 2025',
       responsibilities: [
         'Maintain and enhance web content across AITSL platforms, ensuring consistency, accessibility, and responsiveness across devices and browsers.',
         'Develop and update UI components using HTML, CSS, and JavaScript, adhering to best practices for performance, accessibility, and web standards.',
@@ -27,7 +27,7 @@ export default function ExperienceSection() {
     {
       company: 'Holmesglen',
       role: 'TAFE Teacher – JavaScript & React.js',
-      period: 'July 2024 – Present',
+      period: 'July 2024 – April 2024',
       responsibilities: [
         'Deliver high-quality education and training in JavaScript and React.js to Diploma-level IT students at Holmesglen TAFE.',
         'Design and implement structured lesson plans covering fundamental to advanced JavaScript concepts, including asynchronous programming and ES6+ features.',

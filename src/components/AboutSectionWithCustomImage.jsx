@@ -82,18 +82,18 @@ export default function AboutSectionWithCustomImage() {
               className='space-y-4 text-slate-400 text-sm leading-relaxed'
             >
               <p>
-                Hello! My name is Tamer and I enjoy creating things that live on
-                the internet. My interest in web development started back in
-                2017, when I was completing my Graphic Design Diploma — I built
-                a website for a client as part of my assessment, and that
-                project taught me a lot about HTML & CSS. I quickly realized I
-                enjoyed coding just as much as designing, and I’ve been building
-                ever since.
+                I enjoy creating things that live on the internet. My interest
+                in web development started back in 2017, when I was completing
+                my Graphic Design Diploma — I built a website for a client as
+                part of my assessment, and that project taught me a lot about
+                HTML & CSS. I quickly realized I enjoyed coding just as much as
+                designing, and I've been building ever since.
               </p>
 
               <p>
-                Fast-forward to today, and I’ve had the privilege of working in
-                government, education, retail, and tech. I currently work at{' '}
+                Fast-forward to today, and I've had the privilege of working in
+                government, education, retail, and tech. My experience includes
+                working at{' '}
                 <a
                   href='https://www.aitsl.edu.au/'
                   target='_blank'
@@ -101,7 +101,7 @@ export default function AboutSectionWithCustomImage() {
                 >
                   AITSL
                 </a>{' '}
-                as a Web Support Officer, and teach JavaScript at{' '}
+                as a Web Support Officer, and teaching JavaScript at{' '}
                 <a
                   href='https://www.holmesglen.edu.au/'
                   target='_blank'
@@ -109,9 +109,9 @@ export default function AboutSectionWithCustomImage() {
                 >
                   Holmesglen
                 </a>
-                . My main focus these days is building accessible, responsive
-                web experiences using modern frontend tools and frameworks. I
-                enjoy turning design systems into performant interfaces, solving
+                . I'm passionate about building accessible, responsive web
+                experiences using modern frontend tools and frameworks. I enjoy
+                turning design systems into performant interfaces, solving
                 problems through code, and continuously learning as the web
                 evolves.
               </p>

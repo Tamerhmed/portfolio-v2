@@ -1,16 +1,6 @@
 export const extraProjects = [
   {
     id: 1,
-    title: 'The Wild Oasis',
-    description:
-      'A hotel management dashboard for boutique resorts. Features cabin management, bookings, user authentication, and a responsive, interactive UI for staff and guests.',
-    technologies: ['Next.js', 'Supabase', 'Tailwind CSS', 'React Query'],
-    image: '/assets/the-wild-oasis.png',
-    githubUrl: null,
-    liveUrl: 'https://the-wild-oasis-sepia-psi.vercel.app/',
-  },
-  {
-    id: 2,
     title: 'Apple TV+ Clone',
     description:
       'A visually polished front-end concept inspired by the Apple TV+ landing page. Designed to showcase UI design and animation skills, the app features an animated hero carousel, smooth transitions, and an interactive FAQ section — all focused on delivering a sleek and engaging user experience.',
@@ -26,7 +16,7 @@ export const extraProjects = [
     liveUrl: 'https://apple-tv-plus-clone-pied.vercel.app/',
   },
   {
-    id: 3,
+    id: 2,
     title: 'CarePulse',
     description:
       'A healthcare appointment and patient management platform that enables clinics to manage bookings, patient records, and staff communication. Includes authentication, SMS notifications, and an intuitive admin dashboard.',
@@ -42,6 +32,16 @@ export const extraProjects = [
     image: '/assets/care-pulse.png',
     githubUrl: 'https://github.com/Tamerhmed/care-pulse',
     liveUrl: 'https://care-pulse-lemon-ten.vercel.app/',
+  },
+  {
+    id: 3,
+    title: 'The Wild Oasis',
+    description:
+      'A hotel management dashboard for boutique resorts. Features cabin management, bookings, user authentication, and a responsive, interactive UI for staff and guests.',
+    technologies: ['Next.js', 'Supabase', 'Tailwind CSS', 'React Query'],
+    image: '/assets/the-wild-oasis.png',
+    githubUrl: null,
+    liveUrl: 'https://the-wild-oasis-sepia-psi.vercel.app/',
   },
   {
     id: 4,
