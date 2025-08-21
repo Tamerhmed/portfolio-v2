@@ -157,18 +157,11 @@ const WebsiteAuditProject = () => {
       initial='hidden'
       whileInView='visible'
       viewport={{ once: true, amount: 0.1 }}
-      className='relative py-20 lg:py-32 bg-slate-900 overflow-hidden'
+      className='relative  py-16 lg:py-20 bg-slate-900 overflow-hidden'
       id='audit-project'
     >
-      {/* Background Elements */}
-      <div className='absolute inset-0 overflow-hidden pointer-events-none'>
-        <div className='absolute -top-40 -right-40 w-80 h-80 bg-teal-500/5 rounded-full blur-3xl'></div>
-        <div className='absolute -bottom-20 -left-20 w-60 h-60 bg-teal-600/5 rounded-full blur-3xl'></div>
-        <div className='absolute top-1/3 left-1/4 w-2 h-2 bg-teal-400/30 rounded-full animate-pulse'></div>
-        <div className='absolute top-2/3 right-1/3 w-1 h-1 bg-teal-300/40 rounded-full animate-pulse delay-1000'></div>
-      </div>
-
-      <div className='relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      {/* <div className='relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'> */}
+      <div className='relative max-w-xl lg:max-w-4xl xl:max-w-5xl mx-auto px-4 sm:px-6 lg:px-6 w-full'>
         {/* Section Header */}
         <motion.div
           variants={titleVariants}
