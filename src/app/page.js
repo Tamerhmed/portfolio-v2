@@ -13,6 +13,7 @@ import React from 'react';
 import AitslProjectsGrid from '@/components/AitslProjectsGrid';
 import Headers from '@/components/Headers';
 import ProfileNav from '@/components/ProfileNav';
+import WebsiteAuditProject from '@/components/WebsiteAuditProject';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
 
       <ExperienceSection />
       <AitslProjectsGrid />
+      <WebsiteAuditProject />
       <ProjectsSection projects={extraProjects} />
     </div>
   );
