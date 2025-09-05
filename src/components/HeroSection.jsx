@@ -49,10 +49,11 @@ export default function HeroSection() {
             className='max-w-lg pt-4'
           >
             <p className='text-slate-400 text-base lg:text-lg leading-relaxed'>
-              I'm a front-end developer specializing in building (and
-              occasionally <span className='text-teal-400'>designing</span>)
-              exceptional digital experiences. I focus on creating accessible,
-              human-centered products that make a meaningful impact.
+              I'm a front-end developer who loves building accessible,
+              human-centered products. With a background in digital content
+              coordination and CMS management, I bridge the gap between content,
+              design, and technology to create digital experiences that
+              genuinely make a difference.
             </p>
           </motion.div>
         </motion.div>
