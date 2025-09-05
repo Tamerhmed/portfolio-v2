@@ -157,7 +157,7 @@ const WebsiteAuditProject = () => {
       initial='hidden'
       whileInView='visible'
       viewport={{ once: true, amount: 0.1 }}
-      className='relative  py-16 lg:py-20 bg-slate-900 overflow-hidden'
+      className='hidden relative  py-16 lg:py-20 bg-slate-900 overflow-hidden'
       id='audit-project'
     >
       {/* <div className='relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'> */}
