@@ -91,9 +91,8 @@ export default function AboutSectionWithCustomImage() {
               </p>
 
               <p>
-                Fast-forward to today, and I've had the privilege of working in
-                government, education, retail, and tech. My experience includes
-                working at{' '}
+                Fast-forward to today, I bring experience across government,
+                education, retail, and tech. Until recently, I worked at{' '}
                 <a
                   href='https://www.aitsl.edu.au/'
                   target='_blank'
@@ -101,7 +100,8 @@ export default function AboutSectionWithCustomImage() {
                 >
                   AITSL
                 </a>{' '}
-                as a Web Support Officer, and teaching JavaScript at{' '}
+                as a Front-End Developer & Digital Content Coordinator, and I
+                also taught JavaScript at{' '}
                 <a
                   href='https://www.holmesglen.edu.au/'
                   target='_blank'
